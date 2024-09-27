@@ -17,7 +17,7 @@ document.getElementById('registerForm').addEventListener('submit', async (e) => 
   
         console.log('Response received:', response);
   
-        const data = await response.json(); // Parse response from the server
+        const data = await response.json(); // Parse response from the server.
   
         if (response.ok) {
             console.log('Registration successful!');
