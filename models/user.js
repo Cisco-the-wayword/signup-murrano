@@ -23,6 +23,6 @@ const UserSchema = new Schema({
     }
 });
 
-// No pre-save hook here, passwords will be stored as plain text
+// No pre-save hook here, passwords will be stored as plain text.
 
 module.exports = mongoose.model('User', UserSchema);
